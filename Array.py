@@ -41,7 +41,7 @@ for i in range(0,len(a)):
     print(a[i], end=' ')
 
 print("\n")
-a.remove(3)
+a.pop()
 print("Array elements after removing are:")
 for i in range(0,len(a)):
     print(a[i], end=' ')
@@ -51,3 +51,21 @@ copyarray = array(a.typecode, (x*2 for x in a))
 print("Copied array elements are:")
 for i in range(0,len(copyarray)):
     print(copyarray[i], end=' ')
+
+print("\n")
+b = a[1:3]
+print("Sliced array elements are:")
+for i in range(0,len(b)):
+    print(b[i], end=' ')
+
+print("\n")
+
+c = array('i',[])
+n = int(input("Enter number of elements to be added in array: "))
+for i in range(0,n):
+    x = int(input("Enter element: "))
+    c.append(x)
+
+print("New array elements are:")
+for i in range(0,len(c)):
+    print(c[i], end=' ')
