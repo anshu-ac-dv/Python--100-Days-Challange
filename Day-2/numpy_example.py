@@ -29,3 +29,19 @@ print("Array shape is:", d.shape)
 e = ones((3, 4))
 print("Array with ones:\n", e)
 print("Array shape is:", e.shape)
+
+f = random.rand(3, 4)
+print("Array with random values:\n", f)
+print("Array shape is:", f.shape)
+
+g = full(5, 6)
+print("Array with full:\n", g)
+print("Array shape is:", g.shape)
+
+twodarray = array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Two dimensional array:\n", twodarray)
+print("Array shape is:", twodarray.shape)
+
+threedarray = array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]], [[13, 14, 15], [16, 17, 18]]])
+print("Three dimensional array:\n", threedarray)
+print("Array shape is:", threedarray.shape)
