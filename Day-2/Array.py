@@ -1,4 +1,5 @@
 from array import*
+from numpy_example import*
 
 a = array('i', [1, 2, 3, 4, 5])
 print(a)
@@ -69,3 +70,4 @@ for i in range(0,n):
 print("New array elements are:")
 for i in range(0,len(c)):
     print(c[i], end=' ')
+
