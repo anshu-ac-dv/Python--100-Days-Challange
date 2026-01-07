@@ -35,6 +35,22 @@ class SinglyLinkedList:
                 t1 = t1.next
             t1 = t1.next
 
+
+    def deleteLinkedList(self, value):
+        t1 = self.head
+        prev = t1
+        if(t1.data == value):
+            self.head = t1.next
+            return
+        while(t1.next != None):
+            if(t1.data == value):
+                prev.next = t1.next
+                break
+            else:
+                prev = t1
+                t1 = t1.next
+        
+
     def PrintLinkedList(self):
         t1 = self.head
         while(t1.next != None):
@@ -48,5 +64,6 @@ obj.insert_at_end(20)
 obj.insert_at_end(30)
 obj.insert_at_beginning(5)
 obj.insert_at_end(50)
+obj.deleteLinkedList(10)
 obj.insert_in_between(25,20)
 obj.PrintLinkedList()
