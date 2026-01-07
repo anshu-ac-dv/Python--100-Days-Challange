@@ -9,3 +9,7 @@
 
 >* Learning about Array and creating a array.
 >* Setup numpy in VS code and creating tow and three dimantional array.
+
+## Day 3 
+
+>* Singly Linked List : 
