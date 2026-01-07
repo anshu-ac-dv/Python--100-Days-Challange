@@ -49,6 +49,8 @@ class SinglyLinkedList:
             else:
                 prev = t1
                 t1 = t1.next
+        if(t1.data == value):
+            prev.next = None
         
 
     def PrintLinkedList(self):
@@ -64,6 +66,6 @@ obj.insert_at_end(20)
 obj.insert_at_end(30)
 obj.insert_at_beginning(5)
 obj.insert_at_end(50)
-obj.deleteLinkedList(10)
+obj.deleteLinkedList(50)
 obj.insert_in_between(25,20)
 obj.PrintLinkedList()

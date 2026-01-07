@@ -12,4 +12,8 @@
 
 ## Day 3 
 
->* Singly Linked List : 
+>* Singly Linked List : Understanding about singly linked list.
+```python
+while(t1.next != None):
+                t1 = t1.next
+```
