@@ -1,0 +1,16 @@
+Array Data Structure : 
+- An array is a fundamental and linear data structure that stores items at contiguous locations.
+- Arrays are used to build other data structures like Stack Queue, Deque, Graph, Hash Table, etc. 
+
+Q. Create a array in python :
+
+from array import*
+a = array('i', [1, 2, 3, 4, 5])
+print(a)
+
+Q. Printing array elements :
+
+from array import*
+a = array('i', [1, 2, 3, 4, 5])
+for i in a:
+    print(i)
