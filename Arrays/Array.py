@@ -69,4 +69,3 @@ for i in range(0,n):
 print("New array elements are:")
 for i in range(0,len(c)):
     print(c[i], end=' ')
-
