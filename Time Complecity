@@ -1,3 +1,10 @@
 Comparion:
 
  1 <loglogn <logn <n <n2 <n3 <n4 ........ <2n (Where n is the input size)
+
+ Constant Equation      : y=5;
+ Linear Equation        : y = 2x+5;
+ Quadric Equation       : y = 2x^2+3x+6;
+ Cubic Equation         : y = 3x^3+2x^2+5;
+ Lograthmic Equation    : y = logx + 2;
+ Exponational Equation  : 3^x+3;
