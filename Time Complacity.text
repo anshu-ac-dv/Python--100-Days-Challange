@@ -1,0 +1,67 @@
+Comparion:
+
+ 1 <loglogn <logn <n <n2 <n3 <n4 ........ <2n (Where n is the input size)
+
+Equations:
+
+ Constant Equation      : y = 5;                : 1
+ Linear Equation        : y = 2x+5;             : x
+ Quadric Equation       : y = 2x^2+3x+6;        : x^2
+ Cubic Equation         : y = 3x^3+2x^2+5;      : x^3
+ Lograthmic Equation    : y = logx + 2;         : logx
+ Exponational Equation  : y = 3^x+3;            : 3^x
+
+ Types of Analysis:
+
+ 1. Best Case Analysis      : Omega Notation    (~)
+ 2. Average Case Analysis   : Theta Notation    (0)
+ 3. Worst Case Analysis     : Big O Notation    (O)
+
+ 1. Leanir Time Complaxcity:
+
+ (Q). Find the time complexity of the following code :
+
+	n = 10				1 Unit
+	print(n)			1 Unit
+	for i in range(n)		1 Unit
+		print(n)		n Unit
+
+	
+	Higest Unit is n that's why Time Complexcity = O(n)
+
+2. Quadratic Time Complaxcity:
+
+ (Q). Find the time complexity of the following code :
+
+	n = 10					1 Unit
+	print(n)				1 Unit
+	for i in range(n)			n Unit
+		for j in range(m)		n^2 Unit
+			Print(n)		n Unit
+
+	Higest Unit is n^2 that's why Time Complexcity = O(n^2)
+
+3. Cubic Time Complaxcity:
+
+ (Q). Find the time complexity of the following code :
+
+	n = 10						1 Unit
+	print(n)					1 Unit
+	for i in range(n)				n Unit
+		for j in range(m)			n^2 Unit
+			for a in range(p)		n^3 Unit
+				print(n)		n^3 Unit
+
+	Higest Unit is n^3 that's why Time Complexcity = O(n^3)
+
+ 1. Logrethmic Time Complaxcity:
+
+ (Q). Find the time complexity of the following code :
+
+	n = 10				1 Unit
+	print(n)			1 Unit
+	for i in range(n/2)		1 Unit
+		print(n/n)		logn Unit
+
+	
+	Higest Unit is logn that's why Time Complexcity = O(logn)
