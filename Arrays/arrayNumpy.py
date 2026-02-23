@@ -1,6 +1,6 @@
 from numpy import*
 
-a = array([1,2,3,4,5])
+a = array([1,2,3,4,5.55,'a'])
 
 print("Array elements are:")
 for i in a:
